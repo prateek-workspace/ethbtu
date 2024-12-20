@@ -1,0 +1,148 @@
+.theme-dark
+{
+	--wtk-header:#271840; /*This is for change header background color of website*/
+	--wtk-footer:#17132b; /*This is for change Footer background color of website*/
+	--wtk-bodybg:#000; /*This is for change body background color of website*/
+	--wtk-bg:pink;  /*This is for force background color of content*/
+	--wtk-text:#fff; /*This is for force text color of content*/
+	
+	--wtk-links:#fff; /*This is for change anchor tag text color */
+	--wtk-links-hover:#feffc2; /*This is for change anchor tag text color hover*/
+	
+	
+	--wtk-btn:#feffc2; /*this color is use for button color use default secondary*/
+	--wtk-btn-text:#000;/*this color is use for button text color*/
+	--wtk-btn-hover:#17132b; /*this color is use for button color on hover use default primary*/
+	--wtk-btn-text-hover:#fff;/*this color is use for button text color on hover*/
+	
+	
+	--wtk-primary:#271840; /* global color used for text of background */	
+	--wtk-secondary: #17132b; /* global color used for text or background*/
+	--wtk-heading:#feffc2; /* This is used for website header text color*/
+	--wtk-heading-after:#fff; /* This is used for website header text after color*/
+	
+	--wtk-light:#271840;
+	--wtk-white:#fff;
+	--wtk-black:#000;
+	--op-color:231, 191, 431; /*this is used to provide opacity in background*/
+	--op-color-hover:255, 255, 255; /*this is used to provide opacity on hover background*/
+	
+	
+	 /*----------------------------------------/
+	/        color code for top menu		  /
+   / ---------------------------------------*/
+	 	 
+	--wtk-menu-bg: #000;	/*This is for change top menu background color*/
+	--wtk-text-main : #fff; /*This is for change top menu text color*/
+	
+    --wtk-menu-hover: #271840;	/*This is for change top menu background hover color*/
+	--wtk-menu-text: #fff; /*This is for change top menu text hover color*/
+	
+	--wtk-menu-text-hover:#fff; /*This is for change top menu submenu hover color*/
+	--wtk-group-title-bg:#271840; /*This is for change top menu group title-bg color*/
+	--wtk-group-title-text:#fff; /*This is for change top menu group title-text color*/
+	
+	
+	/*---------------------------------------/
+   /      color code for main menu  		/
+  /---------------------------------------*/
+	 
+	 --wtk-menu2-bg:#000;  /*This is used for submenu background color*/
+	 --wtk-menu2-text:#fff;  /*This is used for main menu text color*/
+	 
+	 --wtk-submenu-link: #fff;   /*This is used for submenu text color*/
+	 --wtk-submenu-link-hover:#ffffc7; /*This is used for both (main menu and submenu) text hover color*/
+	 
+	 --wtk-menu2-hover-bg:#271840; /*This is used for submenu hover background color*/
+	 
+}
+
+.theme-light
+{	
+	--wtk-main-content-bg:#fff;/* Main Content background Color */
+	--wtk-header:#355C7D; /*This is for change header background color of website*/
+	--wtk-header-text:#fff;/*This is used for header text font color.*/
+	--wtk-header-text2:#fff;/*IITK text color*/
+	--wtk-footer:#355C7D; /*This is for change Footer background color of website*/
+	--wtk-footer-bg-1: #3b6f87; /*This is for change Footer background color of website*/
+	--wtk-footer-bg-2: #3b6f87; /*This is for change Footer background color of website*/
+	--wtk-footer-text: #fff; /*footer text color*/
+	--wtk-footer-links: #e59250; /*footer links text color*/
+	--wtk-bodybg:#ffffff; /*This is for change body background color of website*/
+	--wtk-bg:#004773; /*This is for force background color of content*/
+	--wtk-text:#004773; /*This is for force text color of content*/
+	--wtk-underline:transparent;
+	
+	 /*----------------------------------------/
+	/        color code for columns		  	  /
+   / ---------------------------------------*/
+	
+	--wtk-col-leftbg:#3b6f87;
+	--wtk-col-left-text:#ffffff;
+	--wtk-col-rightbg:#f6f6f6;
+	--wtk-col-right-text:#333;
+	
+	 /*----------------------------------------/
+	/        color code for site liks		  /
+   / ---------------------------------------*/
+	--wtk-links:#1B3058; /*This is for change anchor tag text color */
+	--wtk-links-hover:#FFB400; /*This is for change anchor tag text color hover*/
+	 /*----------------------------------------/
+	/        color code for buttons     	  /
+   / ---------------------------------------*/
+	--wtk-btn:#1B3058; /*this color is use for button color use default secondary*/
+	--wtk-btn-text:#fff;/*this color is use for button text color*/
+	--wtk-btn-hover:#1B3058; /*this color is use for button color on hover use default primary*/
+	--wtk-btn-text-hover:#FFB400;/*this color is use for button text color on hover*/
+	--wtk-btn-outline-text: #1B3058;/*This is for outline button text*/
+	
+	--wtk-primary:#1B3058; /* global color used for text of background */	
+	--wtk-secondary: #355C7D; /* global color used for text or background*/
+	
+	--wtk-heading:#1B3058; /* This is used for website header text color*/
+	--wtk-heading-bg:#3b6f87; /* This is used for website header text background color*/
+	--wtk-heading-after:#FFB400; /* This is used for website header text after color*/
+	--wtk-heading-before: #3b6f87; /* This is used for website header text before color*/
+	
+	--wtk-light:#FFB400; /* This is used for navbar collapse background color*/
+	--wtk-dark:#333;
+	--wtk-white:#fff;
+	--wtk-black:#000;
+	--op-color:244, 244, 244; /*this is used to provide opacity in background*/
+	--op-color-hover:0, 71, 115; /*this is used to provide opacity on hover background*/
+	
+	
+	 /*----------------------------------------/
+	/        color code for top menu		  /
+   / ---------------------------------------*/
+	
+	--wtk-menu-bg: #1B3058; /*This is for change top menu background color*/
+	--wtk-menu-text: #fff;  /*This is for change top menu text hover color*/
+	--wtk-text-main : #fff;  /*This is for change top menu text color*/
+    --wtk-menu-hover: #1B3058; /*This is for change top menu background hover color*/
+	--wtk-menu-hover-text: #fff;  /*This is for change top menu text hover color*/
+	
+	--wtk-submenu-bg:#1B3058; /*This is for submenu bg color.*/
+   --wtk-submenu-text: #fff;/*This is for submenu text color.*/
+   --wtk-submenu-hover-bg: #355C7D; /*This is for submenu hover bg color.*/
+   --wtk-submenu-hover-text :#fff;  /*This is for change submenu hover text color*/
+   
+	--wtk-menu-text-hover:#FFB400;  /*This is for change top menu submenu hover color*/
+	--wtk-group-title-bg: #1B3058; /*This is for change top menu group title-bg color*/
+	--wtk-group-title-text:#FFB400; /*This is for change top menu group title-text color*/
+	--wtk-group-title-hover: #3b6f87;/*This is for change top menu group title hover color*/
+	--wtk-toggle-button: #FFB400; /*This is used for toggler button color*/
+	
+	/*---------------------------------------/
+   /      color code for main menu  		/
+  /---------------------------------------*/
+	 
+	 --wtk-menu2-bg:#355C7D;  /*This is used for submenu background color*/
+	 --wtk-menu2-mobile-bg:#1B3058;/*This is used for mobile menu*/
+	 --wtk-menu2-text:#fff;  /*This is used for main menu text color*/
+	 
+	 --wtk-submenu-link: #fff;   /*This is used for submenu text color*/
+	 --wtk-submenu-link-hover:#FFB400; /*This is used for both (main menu and submenu) text hover color*/
+	 
+	 --wtk-menu2-hover-bg:#355C7D; /*This is used for submenu hover background color*/
+}

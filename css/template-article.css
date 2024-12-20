@@ -1,0 +1,180 @@
+.article-info .article-info-term{
+   display:none;
+}
+
+/* ================Article Image Popup Show CSS add on 29-06-2020================= */
+
+.show-article-image{
+    z-index: 999;
+    display: none;
+}
+.show-article-image .overlay-article-image{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.66);
+    position: fixed;
+    top: 0;
+    left: 0;
+	z-index: 999;
+}
+.show-article-image .article-img-show{
+    max-width: 90%;
+	width:auto;
+    height: 70%;
+    background: #FFF;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: auto;
+    z-index: 999;
+	
+}
+.article-img-show span{
+	position: sticky;
+    top: 0px;
+    float: right;
+    /* right: 0px; */
+    z-index: 999;
+    cursor: pointer;
+    
+}
+.article-img-show img{
+	min-width: 350px;
+    max-width: 60%;/*updated on 06-07-2020*/
+    /* height: auto; */
+    position: relative;
+    /* top: 50px; */
+    /* margin: auto;*/
+    
+
+}
+.article-img-show>div           /*========== Added on 17-09-2020============*/
+{ 
+margin: 30px 40px;
+}
+
+/*=========================06-08-21================================*/
+
+
+.article-body a, .container-img a
+{
+	color: var(--wtk-links)!important;
+	font-weight: 600;
+}
+
+.article-body a:hover, .container-img a:hover
+{
+	font-weight:600;
+	color: var(--wtk-links-hover)!important;
+	text-decoration:underline; 
+}
+
+/* ================Article Image Popup Show CSS End================= */
+
+
+.article-head{
+	
+	
+}
+
+.article-body
+{
+	/* color:red; */
+}
+
+.article-body p, .container-img p
+{
+	/* overflow:hidden; */
+	clear:both;
+	text-align:justify;
+	/* color:red; */
+}
+.article-body img, .container-img img
+{
+	float:left;
+	margin: 0px 15px 10px 0;
+	height:auto;
+	border-radius:.25rem;/*change on 13-07-2020 from 200 to 400px*/
+	width: 100%;
+	min-width: 100px;
+    /* max-width: 400px; change on 13-07-2020 from 200 to 400px*/
+	clear: both;
+	transition: transform ease .5s;
+		-webkit-box-shadow: 2px 5px 10px -5px #00243a;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    2px 5px 10px -5px #00243a;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         2px 5px 10px -5px #00243a;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+.article-body img:hover, .container-img img:hover
+{
+	cursor:pointer;
+	transform: scale(1.02); 
+}
+
+/*Img-caption=================================*/
+
+.img-caption-left
+{
+	float:left;    
+    width: 240px;
+    /* max-width: 400px; */
+	background-color: beige;
+    font-size: 12px;
+	padding: 10px;
+    height: auto;
+	margin: 0 10px 10px 0;
+}
+
+.img-caption-right
+{
+	float:right;    
+    width: 240px;
+    /* max-width: 400px; */
+	background-color: beige;
+    font-size: 12px;
+	padding: 10px;
+    height: auto;
+	margin: 0 0 10px 10px;
+}
+
+.img-caption-left img, .img-caption-right img
+{
+    width: 100%;
+    margin: 5px 0px;
+}
+
+
+
+.article-category-link
+{
+	
+}
+
+@media (max-width:768px){
+	.article-head{
+	
+	 font-size:20px;
+	}
+	
+}
+
+/*added this @media query on 04-09-2020 for image*/
+@media (max-width:540px){
+	.article-body img, .container-img img
+	{
+		float:none;
+		display: block;
+		margin: 10px auto;
+		height:auto;
+		border-radius:.25rem;/*change on 13-07-2020 from 200 to 400px*/
+		width: 100%;
+		min-width: 100px;
+		/* max-width: 400px; change on 13-07-2020 from 200 to 400px*/
+		clear: both;
+		transition: transform ease .5s;
+		-webkit-box-shadow: 2px 5px 10px -5px #00243a;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+		-moz-box-shadow:    2px 5px 10px -5px #00243a;  /* Firefox 3.5 - 3.6 */
+		box-shadow:         2px 5px 10px -5px #00243a;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+	}
+	
+}
