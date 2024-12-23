@@ -184,7 +184,7 @@
       jQuery(function ($) {
         $("a[target=ls-scroll]").each(function () {
           var href = this.getAttribute("href"),
-            root = "/index/";
+            root = "index";
           if (href.indexOf(root) === 0)
             this.setAttribute("href", href.substr(root.length));
         });
@@ -262,7 +262,7 @@
               >
                 <ul class="megamenu level0">
                   <li id="Home" class="megacss first active submenu-align-auto">
-                    <a href="index" class="megacss first active hasTip" id="menu101"
+                    <a href="index.html" class="megacss first active hasTip" id="menu101"
                       ><span class="menu-title"
                         ><i class="jux-fa jux-"></i>Home</span
                       ></a
