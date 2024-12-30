@@ -52,21 +52,21 @@ html[xmlns] .clearfix {
 #megamenucss #js-mainnav.megamenu.horizontal.sticky_left.affix .js-megamenu ul.level0 {
   float: left;
   position: static;
-  //-webkit-transform: translate(0);
-  //-webkit-transform: translate(0);
-  //-moz-transform: translate(0);
-  // -ms-transform: translate(0);
-  //-o-transform: translate(0);
+  /* -webkit-transform: translate(0);
+  -webkit-transform: translate(0);
+  -moz-transform: translate(0);
+   -ms-transform: translate(0);
+  -o-transform: translate(0); */
 }
 
 #megamenucss #js-mainnav.megamenu.horizontal.sticky_right.affix .js-megamenu ul.level0 {
   float: right;
   position: static;
-  //-webkit-transform: translate(0);
-  //-webkit-transform: translate(0);
-  //-moz-transform: translate(0);
-  //-ms-transform: translate(0);
-  //-o-transform: translate(0);
+  /* -webkit-transform: translate(0);
+  -webkit-transform: translate(0);
+  -moz-transform: translate(0);
+  -ms-transform: translate(0);
+  -o-transform: translate(0); */
 
 }
 
